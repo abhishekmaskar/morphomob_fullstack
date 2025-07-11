@@ -55,7 +55,9 @@ app.use(cors({
     'http://localhost:5173',
     'http://localhost:3000',
     'https://morphomobinfra.com',
-    'https://www.morphomobinfra.com'
+    'https://www.morphomobinfra.com',
+    // Add your Netlify frontend URL below:
+    'https://your-frontend.netlify.app'
   ],
   credentials: true
 }));
