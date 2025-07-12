@@ -4,7 +4,6 @@
   "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "postinstall": "npm --prefix ../frontend run build",
     "start": "node server/index.js",
     "dev": "nodemon server/index.js"
   },
