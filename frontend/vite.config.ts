@@ -15,4 +15,9 @@ export default defineConfig({
       },
     },
   },
+  // The build section is the important addition!
+  build: {
+    outDir: '../backend/dist',   // This will place your build in backend/dist
+    emptyOutDir: true            // This ensures old files are removed on each build
+  }
 });
