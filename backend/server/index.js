@@ -57,7 +57,7 @@ app.use(cors({
     'https://morphomobinfra.com',
     'https://www.morphomobinfra.com',
     // Add your Netlify frontend URL below:
-    'https://morphomobinfra.netlify.app//'
+    'https://morphomobinfra.onrender.com'
   ],
   credentials: true
 }));
